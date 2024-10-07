@@ -16,6 +16,7 @@ r1= np.sin(111/122 * angles)
 
 
 first = plt.subplot2grid((2, 2), (1, 0),polar=True)
+first.set_yticklabels([]);
 
 first.plot(angles, r1, linewidth=2, linestyle='-', color='r')
 
